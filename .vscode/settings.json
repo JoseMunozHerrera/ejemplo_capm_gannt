@@ -1,0 +1,16 @@
+{
+  "files.exclude": {
+    "**/.gitignore": true,
+    "**/.git": true,
+    "**/.vscode": true
+  },
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "${workspaceFolder:inicial}/sqlite.db",
+      "name": "db"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}
